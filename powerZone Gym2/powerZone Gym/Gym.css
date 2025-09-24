@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.sec1 h1 {
+    color: #f00;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    border-radius: 90px;
+}
+
+.sec1 ul {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+.sec1 li {
+    list-style-type: none;
+    display: inline-block;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+
+.sec1 a {
+    color: #f00;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+    background-color: aliceblue;
+    padding: 10px;
+    border: 3px groove aliceblue;
+    border-radius: 20px;
+}
+
+.sec1 a:hover {
+    color:black;
+    text-decoration: underline;
+}
+
+.sec1 a:active {
+    color: black;
+}
+
+.sec1 main {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("./img/483827694_1409601383638538_2529451899158789355_n.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec1 h3 {
+    color: aliceblue;
+    font-size: xx-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(65, 137, 65, 0.3);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#programs {
+    padding: 50px 20px;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+#programs h2 {
+    color: #f00;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.program-card {
+    background-color: #222;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.program-card h3 {
+    color: #d40e0e;
+    margin-top: 0;
+}
+
+#contact {
+    padding: 50px 20px;
+    background-color: #000;
+    text-align: center; 
+}
+
+#contact h2 {
+    color: #f00;
+}
+
+#contact p {
+    margin: 10px 0;
+}
+
+footer{
+     padding: 20px ;
+    background-color: rgb(107, 24, 24);
+    text-align: center;
+   font-family:  'Bebas Neue', sans-serif;
+    letter-spacing: 2px; 
+
+}
